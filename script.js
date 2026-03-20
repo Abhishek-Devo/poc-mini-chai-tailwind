@@ -1,4 +1,4 @@
-(function(){const chaiStyles = {
+const chaiStyles = {
   "chai-p-2": "padding:2px; ",
   "chai-m-1": "margin:1px; ",
   "chai-c-o": "color:orange; ",
@@ -33,17 +33,3 @@ allClassesArr.forEach((clas) => {
 });
 
 console.log(h1Element);
-
-// allClassesArr.forEach((clas) => {
-//   if ("chai-c-o" in chaiStyles) {
-//     h1Element.setAttribute("style", chaiStyles["chai-c-o"]);
-//     h1Element.classList.remove("chai-c-o");
-//   } else {
-//     console.log("failed to apply colors");
-//   }
-// });
-
-//console.log(h1Element);
-
-}
-)()
